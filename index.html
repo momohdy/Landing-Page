@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Work+Sans:wght@100;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/IMG_20220914_134421.jpg" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="home-section">
+      <div class="container">
+        <!-- header start -->
+        <div class="header">
+          <a href="index.html" class="logo"> your logo </a>
+          <div class="links">
+            <div class="hamburger-btn outer-shadow hover-in-shadow">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="nav-bar" id="home">
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#services" class="">Services</a></li>
+              <!-- <li>
+                <a href="#">About us</a>
+              </li>
+              <li>
+                <a href="#">Courses</a>
+              </li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Blog</a></li> -->
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <li><a href="#register" class="register">Register Now</a></li>
+              <button class="close-navBar outer-shadow hover-in-shadow">
+                x
+              </button>
+              <div class="copy-right">
+                <p>&copy; 2022 Mostafa Mohdy</p>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <!-- header end -->
+        <!-- landing start  -->
+        <div class="landing row">
+          <div class="landing-text col">
+            <h1>Get Quick <span>Medical Services</span></h1>
+            <p>
+              Health Topics Find information on health, wellness, disorders and
+              conditions. Drugs & Supplements Learn about prescription drugs,
+              over-the-counter medicines, herbs, and supplements. Genetics
+              Explore genetic conditions, genes, and more. Medical Tests Learn
+              why your doctor orders medical tests and what the results may
+              mean.
+            </p>
+            <button>
+              <a href="#services">Get Services</a>
+            </button>
+          </div>
+          <div class="landing-img col">
+            <div class="left-box">
+              <i class="fa-solid fa-users"></i>
+              <div>
+                <h3>1570+</h3>
+                <p>Activate Clients</p>
+              </div>
+            </div>
+            <div class="img">
+              <img src="images/doctor.png" alt="landing-img" />
+            </div>
+            <div class="icon"></div>
+            <div class="right-box">
+              <p>
+                <i class="fa-solid fa-check"></i>
+                <span>Get 20% off on every 1st month</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i>
+                <span>Expert Doctors</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- landing end  -->
+
+        <!-- services start  -->
+        <div class="services landing-text" id="services">
+          <h1>Services Aims <span>Medical Services</span></h1>
+          <p>
+            We aim to match the right job opportunities with the right people.
+            Register Now! New Jobs Added Daily. Get Jobs in your inbox. Expert
+            Resume Advice. Launch Your Career. Jobs By Industry. Types:
+            Pharmaceutical Jobs, Travel & Tourism Jobs, Hotels & Restaurant
+            Jobs, Hospitals & Health Jobs, I.T. Jobs, Customer Service Jobs,
+            Manufacturing Jobs, Engineering Jobs, Sales Jobs, H.R. Jobs.
+          </p>
+        </div>
+        <div class="services landing-text" id="services">
+          <h1>People First <span>Medical Services</span></h1>
+          <p>
+            With customer service teams across the globe, each with their own
+            in-depth local market knowledge, we’re able to adapt quickly and
+            provide support. From a global health crisis to personal health
+            requirements, Cigna is there.
+          </p>
+        </div>
+        <div class="services landing-text" id="services">
+          <h1>Whole health  <span>Medical Services</span></h1>
+          <p>
+            Whole health and affordability focus We provide a whole health
+            service platform with a personalised, predictable and simple
+            customer experience that drives affordability of medical plans.
+            Bespoke products, services and resources are combined into one
+            intuitive offering
+          </p>
+        </div>
+
+        <!-- services end  -->
+
+        <!-- contact start -->
+        <div class="contact services landing-text" id="contact">
+          <div class="whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+            <h6>01066913629</h6>
+          </div>
+          <div class="git-hub">
+            <i class="fa-brands fa-github"></i>
+            <h6><a href="https://github.com/momohdy"> My Git-hub</a></h6>
+          </div>
+          <div class="gmail">
+            <i class="fa-regular fa-envelope"></i>
+            <h6>mostafamohdy03@gmail.com</h6>
+          </div>
+          <div class="linkdin">
+            <i class="fa-brands fa-linkedin"></i>
+            <h6>
+              <a href="https://www.linkedin.com/in/mostafa-mohdy-b8445523b/">
+                My linkedin</a
+              >
+            </h6>
+          </div>
+        </div>
+        <!-- contact end -->
+
+        <!-- login start -->
+        <div class="login" id="register">
+          <!-- <center><img class="emg" src="s (1).png" alt="login photo"></center> -->
+          <br />
+          <!-- <h2>login</h2> -->
+          <div class="inputText">
+            <input
+              type="text"
+              class="name"
+              placeholder="User Name , Can not be empty"
+            />
+          </div>
+
+          <div class="inputText">
+            <input
+              type="password"
+              class="password"
+              placeholder="Password , Can not be empty"
+            />
+          </div>
+          <a href="#"><input class="Button" type="submit" value="login" /></a>
+          <div class="rememper">
+            <input type="checkbox" checked="checked" name="" />Rememper me
+          </div>
+        </div>
+        <!-- login end -->
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
